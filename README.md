@@ -52,23 +52,25 @@ c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
 
+[Resposta para a questão 2](Exercicio2.js)
+
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
 ```javascript
 function calcularPreco(tipo) {
-    let preco;
+  let preco;
 
     switch(tipo) {
-        case "eletrônico":
-            preco = 1000;
+      case "eletrônico":
+        preco = 1000;
         case "vestuário":
-            preco = 200;
+          preco = 200;
             break;
         case "alimento":
-            preco = 50;
+          preco = 50;
             break;
         default:
-            preco = 0;
+          preco = 0;
     }
 
     return preco;
@@ -85,6 +87,7 @@ c) O código imprime 50.
 
 d) O código gera um erro.
 
+[Resposta para a questão 3](Exercicio3.js)
 ______
 **4) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
 ```javascript
@@ -101,6 +104,9 @@ b) 6
 c) 18
 
 d) 24
+
+[Resposta para a questão 4](Exercicio4.js)
+
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -114,9 +120,12 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]
 
-c) ["banana", "abacaxi", "manga", "laranja"]
+c) ["banana", "abacaxi", "manga", "laranja"] X
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
+
+[Resposta para a questão 5](Exercicio5.js)
+
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
@@ -131,6 +140,8 @@ b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeir
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
+
+[Resposta para a questão 6](Exercicio6.js)
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -174,6 +185,7 @@ c) Apenas II é verdadeira.
 
 d) Apenas I é verdadeira.
 
+[Resposta para a questão 7](Exercicio7.js)
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -189,6 +201,7 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
+[Resposta para a questão 8](Exercicio8.js)
 ______
 
 # Questões dissertativas
@@ -196,14 +209,15 @@ ______
 
 ```javascript
 function somaArray(numeros) {
-
-    for (i = 0; i < numeros.size; i++) {
+  
+  for (i = 0; i < numeros.size; i++) {
         soma = 2*numeros[i];
     }
     return soma;
 }
 console.log(somaArray([1, 2, 3, 4]));
 ```
+[Resposta para a questão 9](Exercicio9.js)
 ______
 10) Crie um exemplo prático no qual você tenha duas classes:
 
@@ -211,3 +225,5 @@ ______
 - Uma classe `Livro` que herda de `Produto` e modifica o método `calcularDesconto()`, aplicando um desconto de 20% no preço dos livros.
 
 Explique como funciona a herança nesse contexto e como você implementaria a modificação do método na classe `Livro`.
+
+[Resposta para a questão 10](Exercicio10.js)
