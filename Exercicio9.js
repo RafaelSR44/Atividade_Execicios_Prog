@@ -19,7 +19,7 @@ function somaArray(numeros) {
   var soma = 0; // a variavel "soma" foi declarada
   
   for (i = 0; i < numeros.length; i++) { // foi mudado de "size" para "length"
-      soma += 2*numeros[i]; // foi adicionado "+" para somar todos os valores do Array e não igualar a soma
+      soma += 2*numeros[i]; // foi adicionado "+" para somar todos os valores do Array e não igualar aos valores do Array
   }
 
   return soma;

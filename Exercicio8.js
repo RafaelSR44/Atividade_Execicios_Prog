@@ -13,6 +13,6 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
-A resposta "B" é a resposta correta, pois não é possivel a sobrecarga de métodos em JS.
+A resposta "B" é a resposta correta, pois não é possivel a sobrecarga de métodos em JS em uma mesma classe.
 */
 
